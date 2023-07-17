@@ -14,7 +14,7 @@ nav{
   height: 83px;
   background-color: aquamarine;
 }
-.blu{
+.head-blu{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,13 +34,60 @@ nav{
   width: 700px;
   height: 47px;
 }
-.pink{
+.head-violet{
   width: 947px;
   height: 400px;
   border: dashed 2px black;
-  background-color: plum;
+  background-color: violet;
 }
 
 main{
   width: 100%;
-  }
+}
+.white-area{
+  display: flex;
+  height: 624px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.white-blue{
+  width: 700px;
+  height: 517px;
+  border: dashed 2px black;
+  background-color: rgb(54, 54, 232);
+}
+.white-pink{
+  width: 517px;
+  height: 517px;
+  border: dashed 2px black;
+  background-color: pink;
+}
+
+.grey-area{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 624px;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(200, 197, 197);
+}
+
+.grey-blue{
+  width: 700px;
+  height: 517px;
+  border: dashed 2px black;
+  background-color: rgb(54, 54, 232);
+}
+.grey-pink{
+  width: 517px;
+  height: 517px;
+  border: dashed 2px black;
+  background-color: pink;
+}
+
+
+
+
+
+
