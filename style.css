@@ -28,7 +28,8 @@ body{
 }
 
 .bg-grey{
-  background-color: #F6F6F6;
+  /* background-image: url(img/wave.svg); */
+  /* color: #F6F6F6; */
 
 }
 
@@ -65,23 +66,67 @@ header .topbar .container{
 }
 .menu ul li a{
   text-decoration: none;
-  color: black
+  color: white;
+}
+
+#b-accedi{
+  width: 70px;
+  height: 36px;
+  border-radius: 50px;
+  border: none;
+  
 }
 
 #jumbotron{
+  flex-direction: column;
   height: 500px;
-  background-color: #255EE9;
+  background-image: url(img/jumbo.png);
+  background-size: 100% 106%;
   justify-content: center;
   align-items: center;
 }
 
 #jumbotron .content{
+  margin-top: 10px;
+  text-align: center;
   width: 90%;
   max-width: 900px;
+  color: white;
+}
+#jumbotron .content h1{
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+#jumbotron .content p{
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+#scarica{
+  margin-right: 20px;
+  height: 50px;
+  width: 205px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+}
+#apri{
+  height: 50px;
+  width: 290px;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
 }
 
 
 /* MAIN  */
+
+main{
+  margin-top: 55px;
+}
 
 section, footer{
   padding: 40px;
@@ -94,6 +139,66 @@ section:last-child .container{
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+}
+
+.small-column h1{
+  margin-top: 30px;
+  font-size: 47px;
+  padding-bottom: 30px;
+}
+.small-column p{
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.big-grey{
+  height: 935px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.big-grey .container{
+  justify-content: center;
+  align-items: center;
+}
+
+.big-grey .container h1{
+  font-size: 47px ;
+  margin-bottom: 20px;
+
+}
+
+.big-grey .container p{
+  font-size: 20px ;
+}
+
+.big-grey img{
+  width: 100%;
+}
+
+.stars #scarica{
+  background-color: #7289DA;
+  color: white;
+  justify-content: center;
+  margin: auto;
+}
+
+.stars{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background-image: url(img/stars.svg);
+  background-size: 100% 75%;
+  
+  
+}
+
+.stars h2{
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 
 /* FOOTER  */

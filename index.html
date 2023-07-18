@@ -1,112 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>htmlcss-struttura-discord</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>;
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-              <!-- INIZIO HEADER -->
-  <header>
-    <div class="topbar">
-      <div class="container d-flex debug-box debug">
-        <div class="logo">LOGO</div>
-                  <!-- MENU -->
-        <div class="menu">
-          <nav>
-            <ul class="d-flex">
-              <li><a href="#">LINK</a></li>
-              <li><a href="#">LINK</a></li>
-              <li><a href="#">LINK</a></li>
-              <li><a href="#">LINK</a></li>
-              <li><a href="#">LINK</a></li>
-              
-            </ul>
-          </nav>
-        </div>
-                <!-- FINE MENU -->
-        <div class="login">ACCEDI</div>
-      </div>
-    </div>
-
-              <!-- JUMBOTRON -->
-
-    <div id="jumbotron" class="d-flex debug-box debug">
-      <div class="content debug">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur odit voluptates fuga mollitia dignissimos, reiciendis earum eos inventore. Magni doloremque totam sapiente molestias dolore qui aspernatur inventore illo enim magnam.
-      </div>
-
-    </div>
-  </header>
-                  <!-- FINE HEADER -->
-
-
-                  <!-- MAIN -->
-  <main>
-    <section>
-      <div class="container d-flex debug-box debug">
-        <div class="big-column">IMAGE</div>
-        <div class="small-column">TEXT</div>
-      </div>
-    </section>
-
-    <section class="bg-grey">
-      <div class="container d-flex debug-box debug">
-        <div class="small-column">IMAGE</div>
-        <div class="big-column">TEXT</div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container d-flex debug-box debug">
-        <div class="big-column">IMAGE</div>
-        <div class="small-column">TEXT</div>
-      </div>
-    </section>
-
-    <section class="big-grey">
-      <div class="container d-flex debug-box debug">
-        <div>titolo</div>
-        <div>testo</div>
-        <div>immagine</div>
-        <div>CTA</div>
-
-      </div>
-
-    </section>
-  </main>
-                    <!-- FINE MAIN -->
-
-
-                    <!-- FOOTER -->
-
-  <footer>
-    <div class="container debug-box debug">
-      <div class="footer-top d-flex debug-box debug">
-        <div class="social"><i class="fa-brands fa-facebook"></i></div>
-        <div class="menu d-flex debug-box debug ">
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
-          <div class="col">4</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>htmlcss-struttura-discord</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- INIZIO HEADER -->
+    <header>
+      <div class="topbar">
+        <div class="container d-flex">
+          <div class="logo"><img src="img/logo.svg" alt="" /></div>
+          <!-- MENU -->
+          <div class="menu">
+            <nav>
+              <ul class="d-flex">
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè Discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- FINE MENU -->
+          <div class="login">
+            <button id="b-accedi">Accedi</button>
+          </div>
         </div>
       </div>
-      <div class="footer-bottom d-flex debug-box debug">
-        <div class="logo">LOGO</div>
-        <div class="registrati">REGISTRATI</div>
+
+      <!-- JUMBOTRON -->
+
+      <div id="jumbotron" class="d-flex">
+        <div class="content">
+          <h1>Il tuo posto per parlare</h1>
+          <p>
+            Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
+            artistica mondiale,<br />
+            o semplicemente di un piccolo gruppo di amici che vuole passare il
+            tempo assieme,<br />
+            Discord rende più facile chiacchierare ogni giorno e ritrovarsi piu
+            spesso.
+          </p>
+        </div>
+        <div class="cta-top">
+          <button id="scarica">
+            <i class="fa-solid fa-down-long" style="color: #000000"></i> Scarica
+            per Mac
+          </button>
+          <button id="apri">Apri Discord nel tuo browswer</button>
+        </div>
       </div>
+    </header>
+    <!-- FINE HEADER -->
 
-    </div>
-    
+    <!-- MAIN -->
+    <main>
+      <section>
+        <div class="container d-flex">
+          <div class="big-column"><img src="img/item1.svg" alt="" /></div>
+          <div class="small-column">
+            <h1>
+              Un luogo a invito <br />
+              con tutto lo <br />
+              spazio <br />
+              necessario per <br />
+              parlare
+            </h1>
+            <p>
+              I server Discord sono organizzati in canali <br />
+              tematici in cui puoi collaborare, condividere o <br />
+              semplicemente parlare della tua giornata <br />
+              senza intasare una chat di gruppo.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  </footer>
-                <!-- FINE FOOTER -->
+      <section class="bg-grey">
+        <div class="container d-flex">
+          <div class="small-column">
+            <h1>
+              Dove trovarsi è <br />
+              facile
+            </h1>
+            <p>
+              Mettiti comodo in un canale vocale quando <br />
+              hai tempo. gli amici nel tuo server possono <br />
+              vedere che sei lì e unirsi istantaneamente <br />
+              senza dover chiamare
+            </p>
+          </div>
+          <div class="big-column"><img src="img/item2.svg" alt="" /></div>
+        </div>
+      </section>
 
+      <section>
+        <div class="container d-flex">
+          <div class="big-column"><img src="img/item3.svg" alt="" /></div>
+          <div class="small-column">
+            <h1>Da pochi a un fandom</h1>
+            <p>
+              Dai inizio a una comunity di qualsiasi <br />
+              dimensione con strumenti di moderazione e <br />
+              accesso ai membri personalizzabile. <br />
+              concedi ai membri poteri speciali, crea <br />
+              canali privati, e molto altro.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  
-  
-</body>
+      <section class="big-grey d-flex debug debug-box">
+        <div class="container d-flex">
+          <div>
+            <h1>Tecnologia affidabile per tenersi in contatto</h1>
+          </div>
+          <div>
+            <p>
+              Video e audio a bassa latenza ti faranno sentire come se foste
+              tutti nella stessa stanza. Fai ciao in video, guarda <br />
+              gli amici giocare in streaming, o riunitevi in una sessione di
+              disegno con la condivisione dello schermo
+            </p>
+          </div>
+
+          <img src="img/item4-big.svg" alt="" />
+
+          <div class="stars d-flex">
+            <div class="scarica-bottom">
+              <h2>Pronto a iniziare la tua avventura?</h2>
+              <button id="scarica">
+                <i class="fa-solid fa-down-long" style="color: white"></i>
+                Scarica per Mac
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FINE MAIN -->
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container debug-box debug">
+        <div class="footer-top d-flex debug-box debug">
+          <div class="social"></div>
+          <div class="menu d-flex debug-box debug">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+          </div>
+        </div>
+        <div class="footer-bottom d-flex debug-box debug">
+          <div class="logo">LOGO</div>
+          <div class="registrati">REGISTRATI</div>
+        </div>
+      </div>
+    </footer>
+    <!-- FINE FOOTER -->
+  </body>
 </html>
