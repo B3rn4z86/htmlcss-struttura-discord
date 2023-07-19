@@ -70,8 +70,7 @@ header .topbar .container{
 }
 
 #b-accedi{
-  width: 70px;
-  height: 36px;
+  padding: 10px 18px;
   border-radius: 50px;
   border: none;
   
@@ -103,17 +102,15 @@ header .topbar .container{
   margin-bottom: 20px;
 }
 
-#scarica{
+.scarica{
   margin-right: 20px;
-  height: 50px;
-  width: 205px;
+  padding: 15px 20px;
   border-radius: 50px;
   border: none;
   font-size: 20px;
 }
 #apri{
-  height: 50px;
-  width: 290px;
+  padding: 15px 20px;
   border-radius: 50px;
   border: none;
   background-color: black;
@@ -152,13 +149,16 @@ section:last-child .container{
 }
 
 .big-grey{
-  height: 935px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 1407px;
   align-items: center;
   justify-content: center;
 
 }
 
 .big-grey .container{
+  
   justify-content: center;
   align-items: center;
 }
@@ -177,11 +177,12 @@ section:last-child .container{
   width: 100%;
 }
 
-.stars #scarica{
+.stars .scarica{
   background-color: #7289DA;
   color: white;
   justify-content: center;
   margin: auto;
+  
 }
 
 .stars{
@@ -191,19 +192,25 @@ section:last-child .container{
   width: 600px;
   background-image: url(img/stars.svg);
   background-size: 100% 75%;
-  
-  
+  background-position: top;
+}
+
+.stars .scarica-bottom{
+  margin-top: 90px;
 }
 
 .stars h2{
   justify-content: center;
   font-size: 30px;
   margin-bottom: 50px;
+  
+  
 }
 
 /* FOOTER  */
 footer{
 
+  padding-top: 100px;
   height: 600px;
   background-color: #24272A;
 }
@@ -215,9 +222,29 @@ footer{
   width: 25%;
 }
 
-.social{
+.social h4{
   font-size: 30px;
   color: #255EE9;
+  padding-bottom: 20px;
+}
+
+.social{
+  color: white;
+}
+.social-icon  ul{
+  margin-top: 20px;
+  flex-direction: row;
+  list-style: none;
+
+}
+
+.social-icon ul li{
+  justify-content: space-around;
+  padding: 0;
+  margin-right: 20px;
+}
+.social-icon .fa-brands{
+  font-size: 25px;
 }
 .footer-top .menu{
   width: 75%;
@@ -225,10 +252,33 @@ footer{
 .footer-top .menu .col{
   flex-basis:25% ;
 }
+
+.list-bottom li:first-child{
+  color: #7289DA;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.list-bottom li{
+  color: white;
+  margin-bottom: 20px;
+}
 .footer-bottom{
   padding: 10px 0;
   justify-content: space-between;
 }
+
+.social .ita{
+  width: 25px;
+}
+
+.registrati{
+  padding: 5px 10px;
+  background-color: #7289DA;
+  border-radius: 20px;
+  border: none;
+}
+
 
 
 
